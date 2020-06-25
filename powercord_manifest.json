@@ -1,0 +1,10 @@
+{
+    "name": "phenTheme",
+    "description": "phen's Powercord theme",
+    "version": "1.0.0",
+    "author": "PhenoM4n4n#7137",
+    "theme": "custom.css",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "unknown"
+}

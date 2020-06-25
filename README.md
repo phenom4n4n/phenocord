@@ -1,2 +1,2 @@
-# phenTheme
+# phenocord
 My Discord theme.. not much else to it

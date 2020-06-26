@@ -5,7 +5,7 @@ My Discord theme - works with Powercord.
 
 **True Dark Mode**
 
-https://imgur.com/GAFNv4R
+https://imgur.com/GAFNv4R.png
 
 **Square Avatars**
 
@@ -23,4 +23,4 @@ https://imgur.com/wUmUME2
 
 https://imgur.com/mXCYa6o
 
-**Hidden Gift, Help, and Nitro Store, Larger Text Box, Wider Pinned Messages, and more"
+**Hidden Gift, Help, and Nitro Store, Larger Text Box, Wider Pinned Messages, and more**

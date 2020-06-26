@@ -1399,9 +1399,7 @@ span[class*="roleColor"]::after {
 
 /* SQUARE AVATARS */
 
-.avatar-1BDn8e {
-    border-radius: 5px !important;
-}
+.avatar-1BDn8e,
 .avatar-VxgULZ {
     border-radius: 5px !important;
 }

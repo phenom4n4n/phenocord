@@ -21,6 +21,6 @@ https://imgur.com/wUmUME2
 
 **Floating Rainbow Categories**
 
-https://imgur.com/mXCYa6o
+[Imgur](https://i.imgur.com/mXCYa6o.png)
 
 **Hidden Gift, Help, and Nitro Store, Larger Text Box, Wider Pinned Messages, and more**

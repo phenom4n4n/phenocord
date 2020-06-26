@@ -1408,3 +1408,13 @@ span[class*="roleColor"]::after {
 [mask*="url(#svg-mask-avatar-"] {
     mask: unset !important;
 }
+
+/* LARGER TEXT BOX AND NO MORE SCROLLING WHILE EDITING */
+
+.contents-2mQqc9 > div > div > .scrollableContainer-2NUZem {
+    max-height: 100%;
+  }
+  
+  .scrollableContainer-2NUZem {
+    max-height: 700px;
+  }

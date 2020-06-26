@@ -5,19 +5,19 @@ My Discord theme - works with Powercord.
 
 **True Dark Mode**
 
-https://imgur.com/GAFNv4R.png
+<a href="https://imgur.com/GAFNv4R"><img src="https://i.imgur.com/GAFNv4R.png" title="source: imgur.com" /></a>
 
 **Square Avatars**
 
-https://imgur.com/a/yOrD6jM
+<a href="https://imgur.com/5WYQ8pM"><img src="https://i.imgur.com/5WYQ8pM.png" title="source: imgur.com" /></a>
 
 **Colorized Member List**
 
-https://imgur.com/qaHEwNn
+<a href="https://imgur.com/qaHEwNn"><img src="https://i.imgur.com/qaHEwNn.png" title="source: imgur.com" /></a>
 
 **Lined Categories**
 
-https://imgur.com/wUmUME2
+<a href="https://imgur.com/wUmUME2"><img src="https://i.imgur.com/wUmUME2.png" title="source: imgur.com" /></a>
 
 **Floating Rainbow Categories**
 

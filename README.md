@@ -23,4 +23,4 @@ My Discord theme - works with Powercord.
 
 <a href="https://imgur.com/mXCYa6o"><img src="https://i.imgur.com/mXCYa6o.png" title="source: imgur.com" /></a>
 
-**Hidden Gift, Help, and Nitro Store, Larger Text Box, Wider Pinned Messages, and more**
+**And... Hidden Gift, Help, and Nitro Store Buttons, Larger Text Box, Wider Pinned Messages, and more**

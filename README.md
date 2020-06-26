@@ -3,6 +3,10 @@ My Discord theme - works with Powercord.
 
 # Features:
 
+**Custom Start GIF**
+
+<a href="https://imgur.com/Rwxn74W"><img src="https://i.imgur.com/Rwxn74W.png" title="source: imgur.com" /></a>
+
 **True Dark Mode**
 
 <a href="https://imgur.com/GAFNv4R"><img src="https://i.imgur.com/GAFNv4R.png" title="source: imgur.com" /></a>

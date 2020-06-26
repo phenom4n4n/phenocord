@@ -1401,23 +1401,10 @@ span[class*="roleColor"]::after {
 
 .avatar-1BDn8e {
     border-radius: 5px !important;
-}   
-[mask*="url(#svg-mask-avatar-status-round-"] {
-    mask: unset !important;
 }
-
-[mask*="url(#svg-mask-avatar-status-mobile-"] {
-    mask: unset !important;
-}
-
-[mask*="url(#svg-mask-avatar-default"] {
-    mask: unset !important;
-}
-
-[mask*="url(#svg-mask-avatar-status-typing-"] {
-    mask: unset !important;
-}
-
 .avatar-VxgULZ {
     border-radius: 5px !important;
+}
+[mask*="url(#svg-mask-avatar-"] {
+    mask: unset !important;
 }

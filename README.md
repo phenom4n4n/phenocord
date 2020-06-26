@@ -1,2 +1,4 @@
 # phenocord
-My Discord theme.. not much else to it
+My Discord theme - works with Powercord.
+**Features:**
+

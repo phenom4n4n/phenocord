@@ -24,6 +24,7 @@
     --interactive-active: #d9d9d9 !important;
     --interactive-muted: #4d4d4d !important;
     --header-secondary: #c9c9c9 !important;
+    --alt-color: #37b2cb !important;
     --toast-background: var(--background-primary) !important;
     --toast-header: var(--background-tertiary) !important;
     --toast-contents: var(--background-secondary) !important;
@@ -1347,7 +1348,7 @@ span[class*="roleColor"]::after {
     }
 }
 .mentioned-xhSam7:before {
-    background-color: #37b2cb;
+    background-color: var(--alt-color);
 }
 /* LINED CATEGORIES */
 
@@ -1495,4 +1496,10 @@ span[class*="roleColor"]::after {
 .listItem-2P_4kh:hover,
 .peopleListItem-2nzedh:hover{
     padding-left: 3px;
+  }
+
+/* MENU SELECTION COLOR */
+
+.focused-3afm-j{
+    background-color: var(--alt-color);
   }

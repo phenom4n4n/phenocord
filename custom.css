@@ -1500,6 +1500,18 @@ span[class*="roleColor"]::after {
 
 /* MENU SELECTION COLOR */
 
-.focused-3afm-j{
+.colorDefault-2K3EoJ.focused-3afm-j{
     background-color: var(--alt-color);
+  }
+
+/* UNREAD LINE COLOR */
+  .content-1o0f9g,
+  .isUnread-3Ef-o9,
+  .unreadPillCapStroke-7rkHbg {
+     border-color: var(--alt-color);
+     color: var(--alt-color) !important;
+     fill: var(--alt-color);
+  }
+  .unreadPill-2HyYtt {
+     background-color: var(--alt-color);
   }

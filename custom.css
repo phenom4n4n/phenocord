@@ -1484,8 +1484,13 @@ span[class*="roleColor"]::after {
     animation-timing-function: linear;
 }
 
-/* FRIENDS LIST HOP */
+/* FRIENDS/DM/SERVER/CATEGORIES/CHANNEL/MEMBER LIST HOP */
 
+.member-3-YXUe:hover,
+.containerDefault-3GGEv_:hover,
+.containerDefault-1ZnADq:hover,
+.channel-2QD9_O:hover,
+.listItem-2P_4kh:hover,
 .peopleListItem-2nzedh:hover{
     padding-left: 3px;
   }

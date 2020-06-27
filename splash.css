@@ -2,7 +2,7 @@
     --background: url("https://i.imgur.com/CRH8SG7.gif");
     --accent: #fff;
     --accent-glass: #fff1;
-    --text-color: #000;
+    --text-color: #fff;
     --blur: 10px;
 }
 
@@ -37,14 +37,12 @@
 
 .progress{
     position: fixed;
-    bottom:30px;
-    left:30px;
-    width: calc(100% - 60px);
+    bottom: 3.5px;
+    width: 100%;
 }
 .progress .progress-bar{
     width:100%;
-    height: 10px;
-    border-radius: 10px;
+    height: 18px;
     background: var(--accent-glass);
     overflow: hidden;
     backdrop-filter: blur(calc(var(--blur) / 2));

@@ -1,8 +1,8 @@
 :root{
     --background: url("https://i.imgur.com/CRH8SG7.gif");
-    --accent: #3f336e;
+    --accent: #fff;
     --accent-glass: #fff1;
-    --text-color: #fff;
+    --text-color: #000;
     --blur: 10px;
 }
 

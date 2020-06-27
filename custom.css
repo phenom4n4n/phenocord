@@ -1457,6 +1457,9 @@ span[class*="roleColor"]::after {
         color: rgb(255,0,127);
     }
 }
+
+.closeIcon-rycxaQ,
+.embedSuppressButton-1FonMn,
 .addButtonIcon-3u-3Hu,
 .icon-3D60ES,
 .icon-22AiRD,
@@ -1465,6 +1468,8 @@ span[class*="roleColor"]::after {
     transition: 0.2s;
 }
 
+.closeIcon-rycxaQ:hover,
+.embedSuppressButton-1FonMn:hover,
 .addButtonIcon-3u-3Hu:hover,
 .icon-3D60ES:hover,
 .icon-22AiRD:hover,

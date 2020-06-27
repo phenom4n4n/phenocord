@@ -1478,3 +1478,9 @@ span[class*="roleColor"]::after {
     animation-direction: alternate;
     animation-timing-function: linear;
 }
+
+/* FRIENDS LIST HOP */
+
+.peopleListItem-2nzedh:hover{
+    padding-left: 3px;
+  }

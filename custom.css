@@ -1487,8 +1487,9 @@ span[class*="roleColor"]::after {
     animation-timing-function: linear;
 }
 
-/* FRIENDS/DM/SERVER/CATEGORIES/CHANNEL/MEMBER LIST HOP */
+/* SETTINGS/FRIENDS/DM/SERVER/CATEGORIES/CHANNEL/MEMBER LIST HOP */
 
+.item-PXvHYJ:hover,
 .member-3-YXUe:hover,
 .containerDefault-3GGEv_:hover,
 .containerDefault-1ZnADq:hover,

@@ -1534,6 +1534,5 @@ span[class*="roleColor"]::after {
     border-radius: 5px;
     border-left: none;
     border-top: 5px solid #000;
-    background: rgba(0,0,0,0.3);
     box-shadow: var(--elevation-high);
 }

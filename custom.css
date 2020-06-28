@@ -1517,7 +1517,7 @@ span[class*="roleColor"]::after {
     background-color: var(--alt-color);
 }
 
-  /* COLOR BRAND */
+/* COLOR BRAND */
 
 .barFill-23-gu-,
 .headerPlaying-j0WQBV,
@@ -1526,4 +1526,14 @@ span[class*="roleColor"]::after {
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: var(--alt-color);
+}
+
+/* CUSTOM EMBEDS */
+
+.embedFull-2tM8-- {
+    border-radius: 5px;
+    border-left: none;
+    border-top: 5px solid #000;
+    background: rgba(0,0,0,0.3);
+    box-shadow: var(--elevation-high);
 }

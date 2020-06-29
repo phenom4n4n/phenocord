@@ -1549,3 +1549,19 @@ div[id="message-actions"]:hover {
     width: 200px;
     transition: 0.5s;
 }
+
+/* CUSTOM MENUS */
+
+.menu-3sdvDG {
+    position: relative;
+    background-color: #00000095;
+  }
+  
+.menu-3sdvDG::before {
+    border-radius: 10px;
+    content: '';
+    position: absolute;
+    backdrop-filter: blur(5px);
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}

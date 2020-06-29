@@ -1536,3 +1536,16 @@ span[class*="roleColor"]::after {
     border-top: 5px solid #000;
     box-shadow: var(--elevation-high);
 }
+
+/* MESSAGE ACTIONS SLIDER */
+
+div[id="message-actions"] {
+    min-width: 0px;
+    width: 57px;
+    transition: 1s;
+}
+div[id="message-actions"]:hover {
+    min-width: 0px;
+    width: 200px;
+    transition: 0.5s;
+}

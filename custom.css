@@ -1520,49 +1520,70 @@ div[class^="member-"]:hover,
 
 /* RIGHT HOP */
 
-.side-8zPYf6 > div[class^="item-"],
-.item-PXvHYJ,
-.channel-2QD9_O,
+div[class^="side-"] div[class^="item-"],
+a[class^="channel-"],
 div[id^="channels-"] {
   background-color: transparent;
 }
 
-.side-8zPYf6 > div[class^="item-"]:hover,
-.channel-2QD9_O:hover,
+
+div[class^="side-"] div[class^="item-"]:hover,
+a[class^="channel-"]:hover,
 div[id^="channels-"]:hover {
   transition: all 0.3s ease;
   transform: translateX(0.5em);
   border-left: solid 0.5em #000000;
 }
 
-/* MENU SELECTION COLOR */
-
-.colorDefault-2K3EoJ.focused-3afm-j{
-    background-color: var(--alt-color);
-}
-
 /* UNREAD LINE COLOR */
 
-.content-1o0f9g,
-.isUnread-3Ef-o9,
-.unreadPillCapStroke-7rkHbg {
+div[class*="isUnread"] .content-1o0f9g,
+div[class*="isUnread"],
+path[class*="unreadPillCapStroke"] {
     border-color: var(--alt-color);
     color: var(--alt-color) !important;
     fill: var(--alt-color);
 }
-.unreadPill-2HyYtt {
+span[class*="unreadPill"] {
     background-color: var(--alt-color);
 }
 
-/* COLOR BRAND */
+/* COLOR BRAND (replaces blurple) */
 
-.barFill-23-gu-,
-.headerPlaying-j0WQBV,
-.headerStreaming-2FjmGz,
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
-.lookFilled-1Gx00P.colorBrand-3pXr91,
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-    background-color: var(--alt-color);
+div[data-item-id*="DiscordNitro"],
+button[class*="lookOutlined"].colorBrand-3pXr91 {
+    color: var(--alt-color) !important;
+    border-color: #37b2cb30;
+}
+
+button[class*="lookOutlined"].colorBrand-3pXr91:hover {
+    border-color: #37b2cb50;
+}
+
+div[class*="checked"],
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus {
+    border-color: var(--alt-color) !important;
+}
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN,
+div[class*="colorBrand"] {
+    color: var(--alt-color) !important;
+}
+
+div[class*="checked"],
+span[class*="botTagRegular"],
+div[class*="barFill"],
+div[class*="headerPlaying"],
+div[class*="headerStreaming"],
+div[class*="themeDefault"].valueChecked-m-4IJZ,
+div[class*="colorDefault"].focused-3afm-j,
+div[class*="colorDefault"].focused-3afm-j:active,
+button[class*="lookFilled"].colorBrand-3pXr91,
+button[class*="lookFilled"].colorBrand-3pXr91:disabled,
+button[class*="lookFilled"].colorBrand-3pXr91:hover {
+    background-color: var(--alt-color) !important;
 }
 
 /* CUSTOM EMBEDS */
@@ -1589,18 +1610,18 @@ div[id="message-actions"]:hover {
 
 /* CUSTOM MENUS */
 
-div[class^="submenu-2"],
+div[class^="submenu-"],
 div[class^="menu"] {
     position: relative;
-    background-color: #00000095;
+    background-color: #00000075;
 }
 
-div[class^="submenu-2"]::before,
+div[class^="submenu-"]::before,
 div[class^="menu"]::before {
-    border-radius: 10px;
+    border-radius: 5px;
     content: '';
     position: absolute;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     top: 0; bottom: 0;
     left: 0; right: 0;
 }

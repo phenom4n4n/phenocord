@@ -1438,7 +1438,7 @@ span[class*="roleColor"]::after {
 
 /* SQUARE AVATARS */
 
-img[class*="avatar-"] {
+img[class^="avatar-"] {
     border-radius: 5px !important;
 }
 

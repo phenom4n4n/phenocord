@@ -1441,9 +1441,27 @@ span[class*="roleColor"]::after {
 img[class*="avatar-"] {
     border-radius: 5px !important;
 }
-[mask*="url(#svg-mask-avatar-"] {
-    mask: unset !important;
+
+[id^="svg-mask-avatar"] > circle[fill="white"] {
+    r: .8!important;
+    cy: .45!important;
+    cx: .45!important;
 }
+
+.mask-118v16 > circle[fill="white"] {
+    r: .8!important;
+    cy: .45!important;
+    cx: .45!important;
+}
+
+.avatarSmall-2CW6I1, .avatar-3e1DyV, .avatarContainer-2inGBK, .callAvatarVoice-29N_wG, .avatar-SmRMf2 {
+    border-radius: 5px!important;
+}
+  
+.speaking-B2MXPi {
+    border-radius: 5px!important;
+}
+  
 
 /* LARGER TEXT BOX AND NO MORE SCROLLING WHILE EDITING */
 

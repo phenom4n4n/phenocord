@@ -1571,9 +1571,9 @@ div[id="message-actions"]:hover {
 .menu-3sdvDG {
     position: relative;
     background-color: #00000095;
-  }
-  
-.menu-3sdvDG::before {
+}
+
+div[class*="menu"]::before {
     border-radius: 10px;
     content: '';
     position: absolute;

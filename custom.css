@@ -1546,7 +1546,7 @@ img[class^="avatar-"] {
 
 /* CUSTOM EMBEDS */
 
-.embedFull-2tM8-- {
+div[class*="embedFull"] {
     border-radius: 5px;
     border-left: none;
     border-top: 5px solid #000;
@@ -1568,16 +1568,18 @@ div[id="message-actions"]:hover {
 
 /* CUSTOM MENUS */
 
-.menu-3sdvDG {
+div[class^="submenu-2"],
+div[class^="menu"] {
     position: relative;
     background-color: #00000095;
 }
 
-div[class*="menu"]::before {
+div[class^="submenu-2"]::before,
+div[class^="menu"]::before {
     border-radius: 10px;
     content: '';
     position: absolute;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(px);
     top: 0; bottom: 0;
     left: 0; right: 0;
 }

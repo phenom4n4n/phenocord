@@ -1461,7 +1461,6 @@ img[class^="avatar-"] {
 .speaking-B2MXPi {
     border-radius: 5px!important;
 }
-  
 
 /* LARGER TEXT BOX AND NO MORE SCROLLING WHILE EDITING */
 
@@ -1505,14 +1504,36 @@ img[class^="avatar-"] {
 
 /* FRIENDS/DM/SERVER/CATEGORIES/CHANNEL/MEMBER LIST HOP */
 
-.member-3-YXUe:hover,
-.containerDefault-3GGEv_:hover,
-.containerDefault-1ZnADq:hover,
+/* LEFT HOP */
+
+div[class^="member-"],
+.peopleListItem-2nzedh {
+  background-color: transparent;
+}
+
+div[class^="member-"]:hover,
+.peopleListItem-2nzedh:hover {
+  transition: all 0.3s ease;
+  transform: translateX(-0.5em);
+  border-right: solid 0.5em #000000;
+}
+
+/* RIGHT HOP */
+
+.side-8zPYf6 > div[class^="item-"],
+.item-PXvHYJ,
+.channel-2QD9_O,
+div[id^="channels-"] {
+  background-color: transparent;
+}
+
+.side-8zPYf6 > div[class^="item-"]:hover,
 .channel-2QD9_O:hover,
-.listItem-2P_4kh:hover,
-.peopleListItem-2nzedh:hover{
-    padding-left: 3px;
-  }
+div[id^="channels-"]:hover {
+  transition: all 0.3s ease;
+  transform: translateX(0.5em);
+  border-left: solid 0.5em #000000;
+}
 
 /* MENU SELECTION COLOR */
 

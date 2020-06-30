@@ -1382,13 +1382,12 @@ span[class*="roleColor"]::after {
 
 .mentioned-xhSam7 {
     background: #37b2cb10 !important;
-    &:before {
-        background-color: #37b2cb !important;
-    }
 }
+
 .mentioned-xhSam7:before {
     background-color: var(--alt-color);
 }
+
 /* LINED CATEGORIES */
 
 .scroller-2FKFPG {

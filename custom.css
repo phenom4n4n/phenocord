@@ -24,7 +24,7 @@
     --interactive-active: #d9d9d9 !important;
     --interactive-muted: #4d4d4d !important;
     --header-secondary: #c9c9c9 !important;
-    --alt-color: #37b2cb !important;
+    --alt-color: 55, 178, 203;
     --toast-background: var(--background-primary) !important;
     --toast-header: var(--background-tertiary) !important;
     --toast-contents: var(--background-secondary) !important;
@@ -1381,11 +1381,11 @@ span[class*="roleColor"]::after {
 /* MENTION COLOR */
 
 .mentioned-xhSam7 {
-    background: #37b2cb10 !important;
+    background: rgba(var(--alt-color), 10%) !important;
 }
 
 .mentioned-xhSam7:before {
-    background-color: var(--alt-color);
+    background-color: rgba(var(--alt-color));
 }
 
 /* LINED CATEGORIES */
@@ -1540,36 +1540,41 @@ div[id^="channels-"]:hover {
 div[class*="isUnread"] .content-1o0f9g,
 div[class*="isUnread"],
 path[class*="unreadPillCapStroke"] {
-    border-color: var(--alt-color);
-    color: var(--alt-color) !important;
-    fill: var(--alt-color);
+    border-color: rgba(var(--alt-color));
+    color: rgba(var(--alt-color)) !important;
+    fill: rgba(var(--alt-color));
 }
 span[class*="unreadPill"] {
-    background-color: var(--alt-color);
+    background-color: rgba(var(--alt-color));
 }
 
 /* COLOR BRAND (replaces blurple) */
 
 div[data-item-id*="DiscordNitro"],
 button[class*="lookOutlined"].colorBrand-3pXr91 {
-    color: var(--alt-color) !important;
-    border-color: #37b2cb30;
+    color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color), 30%);
 }
 
 button[class*="lookOutlined"].colorBrand-3pXr91:hover {
-    border-color: #37b2cb50;
+    border-color: rgba(var(--alt-color), 50%);
 }
 
 div[class*="checked"],
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
-    border-color: var(--alt-color) !important;
+    border-color: rgba(var(--alt-color)) !important;
 }
 
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN,
 div[class*="colorBrand"] {
-    color: var(--alt-color) !important;
+    color: rgba(var(--alt-color)) !important;
+}
+
+div[class*="colorDefault"].focused-3afm-j,
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
+    color: #fff !important;
 }
 
 div[class*="checked"],
@@ -1583,7 +1588,7 @@ div[class*="colorDefault"].focused-3afm-j:active,
 button[class*="lookFilled"].colorBrand-3pXr91,
 button[class*="lookFilled"].colorBrand-3pXr91:disabled,
 button[class*="lookFilled"].colorBrand-3pXr91:hover {
-    background-color: var(--alt-color) !important;
+    background-color: rgba(var(--alt-color)) !important;
 }
 
 /* CUSTOM EMBEDS */

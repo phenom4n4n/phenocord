@@ -1658,7 +1658,7 @@ div[class^="role-"] {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    border: 2px outset;
+    border: none;
     padding: 5px;
 }
 

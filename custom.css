@@ -1570,8 +1570,7 @@ button[class*="lookOutlined"].colorBrand-3pXr91:hover {
     border-color: rgba(var(--alt-color), 50%);
 }
 
-[style*="background-color: rgb(114, 137, 218)"],
-div[class*="checked"],
+[style*="border-color: rgb(114, 137, 218)"],
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
     border-color: rgba(var(--alt-color)) !important;
@@ -1610,6 +1609,7 @@ button[class*="lookFilled"].colorBrand-3pXr91:disabled,
 button[class*="lookFilled"].colorBrand-3pXr91:hover {
     background-color: rgba(var(--alt-color)) !important;
     color: #fff !important;
+    border-color: rgba(var(--alt-color)) !important;
 }
 
 /* CUSTOM EMBEDS */
@@ -1658,7 +1658,7 @@ div[class^="role-"] {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    border: none;
+    border: 2px outset;
     padding: 5px;
 }
 
@@ -1670,7 +1670,7 @@ div[class^="roleCircle-"]::before {
     width:100%;
     height: 100%;
     background: inherit;
-    opacity: .2;
+    opacity: .3;
     z-index: -1;
     pointer-events: none;
 }

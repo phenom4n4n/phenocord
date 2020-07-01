@@ -1388,6 +1388,11 @@ span[class*="roleColor"]::after {
     background-color: rgba(var(--alt-color));
 }
 
+.wrapper-3WhCwL {
+    color: rgba(var(--alt-color));
+    background: rgba(var(--alt-color) 0.1);
+}
+
 /* LINED CATEGORIES */
 
 .scroller-2FKFPG {
@@ -1542,7 +1547,7 @@ div[class*="isUnread"],
 path[class*="unreadPillCapStroke"] {
     border-color: rgba(var(--alt-color));
     color: rgba(var(--alt-color)) !important;
-    fill: rgba(var(--alt-color));
+    fill: rgba(var(--alt-color)) !important;
 }
 span[class*="unreadPill"] {
     background-color: rgba(var(--alt-color));
@@ -1550,7 +1555,12 @@ span[class*="unreadPill"] {
 
 /* COLOR BRAND (replaces blurple) */
 
-div[data-item-id*="DiscordNitro"],
+[style*="background-color: rgb(114, 137, 218)"],
+div[class*="colorDefault"].focused-3afm-j,
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
+    color: #fff !important;
+}
+
 button[class*="lookOutlined"].colorBrand-3pXr91 {
     color: rgba(var(--alt-color)) !important;
     border-color: rgba(var(--alt-color), 30%);
@@ -1560,23 +1570,30 @@ button[class*="lookOutlined"].colorBrand-3pXr91:hover {
     border-color: rgba(var(--alt-color), 50%);
 }
 
+[style*="background-color: rgb(114, 137, 218)"],
 div[class*="checked"],
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
     border-color: rgba(var(--alt-color)) !important;
 }
 
+[fill*="7289da"] {
+    fill: rgba(var(--alt-color)) !important;
+}
+
+[aria-label="Verified"],
+[style*="color: rgb(114, 137, 218)"],
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN,
 div[class*="colorBrand"] {
     color: rgba(var(--alt-color)) !important;
 }
 
-div[class*="colorDefault"].focused-3afm-j,
-.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
-    color: #fff !important;
-}
-
+.interactive:hover,
+[style*="background-color: rgb(114, 137, 218)"],
+div[class^="newMessagesBar-"],
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
+div[class^="dot"],
 div[class*="checked"],
 span[class*="botTagRegular"],
 div[class*="barFill"],
@@ -1589,6 +1606,7 @@ button[class*="lookFilled"].colorBrand-3pXr91,
 button[class*="lookFilled"].colorBrand-3pXr91:disabled,
 button[class*="lookFilled"].colorBrand-3pXr91:hover {
     background-color: rgba(var(--alt-color)) !important;
+    color: #fff !important;
 }
 
 /* CUSTOM EMBEDS */

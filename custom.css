@@ -1381,7 +1381,7 @@ span[class*="roleColor"]::after {
 /* MENTION COLOR */
 
 .mentioned-xhSam7 {
-    background: rgba(var(--alt-color), 10%) !important;
+    background: rgba(var(--alt-color), 0.05) !important;
 }
 
 .mentioned-xhSam7:before {
@@ -1390,7 +1390,7 @@ span[class*="roleColor"]::after {
 
 .wrapper-3WhCwL {
     color: rgba(var(--alt-color));
-    background: rgba(var(--alt-color), 0.1);
+    background: rgba(var(--alt-color), 0.05);
 }
 
 /* LINED CATEGORIES */

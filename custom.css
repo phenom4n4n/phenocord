@@ -1603,13 +1603,14 @@ div[class*="colorBrand"] {
     background-color: rgba(var(--alt-color)) !important;
 }
 
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 span[class^="questionMark-"],
 .interactive:hover,
 [style*="background-color: rgb(114, 137, 218)"],
 [style*="background: rgb(114, 137, 218)"],
 div[class^="newMessagesBar-"],
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
-div[class^="dot"],
+div[class^="dot-"],
 span[class*="botTagRegular"],
 div[class*="barFill"],
 div[class*="headerPlaying"],

@@ -1570,6 +1570,7 @@ button[class*="lookOutlined"].colorBrand-3pXr91:hover {
     border-color: rgba(var(--alt-color), 50%);
 }
 
+[class^="regionSelectModalOption-"]:hover,
 [style*="border-color: rgb(114, 137, 218)"],
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
@@ -1584,6 +1585,9 @@ polyline[stroke*="7289da"] {
     stroke: rgba(var(--alt-color)) !important;
 }
 
+[class^="regionSelectModalHeader-"],
+.lookGhost-2Fn_0-.colorBrand-3pXr91,
+.lookLink-9FtZy-.colorBrand-3pXr91,
 [aria-label="Verified"],
 [style*="color: rgb(114, 137, 218)"],
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
@@ -1594,6 +1598,7 @@ div[class*="colorBrand"] {
 
 .interactive:hover,
 [style*="background-color: rgb(114, 137, 218)"],
+[style*="background: rgb(114, 137, 218)"],
 div[class^="newMessagesBar-"],
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 div[class^="dot"],
@@ -1670,7 +1675,7 @@ div[class^="roleCircle-"]::before {
     width:100%;
     height: 100%;
     background: inherit;
-    opacity: .3;
+    opacity: .1;
     z-index: -1;
     pointer-events: none;
 }

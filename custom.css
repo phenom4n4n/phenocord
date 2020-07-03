@@ -1611,7 +1611,7 @@ div[class^="roleCircle-"]::before {
     width:100%;
     height: 100%;
     background: inherit;
-    opacity: .1;
+    opacity: .2;
     z-index: -1;
     pointer-events: none;
 }

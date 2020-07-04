@@ -8,6 +8,7 @@
 /* Main */
 #splash{
     background:var(--background);
+    background-color: var(--accent-glass);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

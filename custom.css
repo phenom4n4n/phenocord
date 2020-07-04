@@ -1356,6 +1356,15 @@ rect[mask="url(#svg-mask-status-offline)"] {
     }
 }
 
+@keyframes subrainbow {
+    from {
+      filter: hue-rotate(0);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+}
+
 /* MEMBER LIST */
 
 span[class*="roleColor"]::after {

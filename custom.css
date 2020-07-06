@@ -1636,3 +1636,9 @@ path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16
 path[d="M14 2H16V3H14V5H13V3H11V2H13V0H14V2Z"] {
     fill: rgba(var(--alt-color));
 }
+
+/* HIDE PROTIPS */
+
+div[class*="protip-"] {
+    display: none;
+}

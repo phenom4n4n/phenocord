@@ -1358,12 +1358,12 @@ rect[mask="url(#svg-mask-status-offline)"] {
 
 @keyframes subrainbow {
     from {
-      filter: hue-rotate(0);
+        filter: hue-rotate(0deg);
     }
     to {
-      filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
     }
-}
+  }
 
 /* MEMBER LIST */
 
@@ -1554,6 +1554,7 @@ div[id^="channels-"]:hover {
 div[class*="isUnread"] .content-1o0f9g,
 div[class*="isUnread"],
 path[class*="unreadPillCapStroke"] {
+    animation: subrainbow 2s infinite;
     border-color: rgba(var(--alt-color));
     color: rgba(var(--alt-color)) !important;
     fill: rgba(var(--alt-color)) !important;
@@ -1641,4 +1642,10 @@ path[d="M14 2H16V3H14V5H13V3H11V2H13V0H14V2Z"] {
 
 div[class*="protip-"] {
     display: none;
+}
+
+/* COLORIZE DISABLED EMOJIS ON HOVER */
+
+li[class*="emojiItemDisabled-"]:hover{
+    filter: grayscale(0);
 }

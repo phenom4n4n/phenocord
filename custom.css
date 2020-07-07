@@ -1456,6 +1456,10 @@ img[class^="avatar-"] {
     border-radius: 5px !important;
 }
 
+[url*="#svg-mask-voice-"] {
+    mask: unset !important
+}
+
 [id^="svg-mask-avatar"] > circle[fill="white"] {
     r: .8!important;
     cy: .45!important;

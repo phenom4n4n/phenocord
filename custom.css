@@ -24,13 +24,20 @@
     --interactive-active: #d9d9d9 !important;
     --interactive-muted: #4d4d4d !important;
     --header-secondary: #c9c9c9 !important;
-    --alt-color: 55, 178, 203;
     --toast-background: var(--background-primary) !important;
     --toast-header: var(--background-tertiary) !important;
     --toast-contents: var(--background-secondary) !important;
     --toast-box-shadow: rgba(0, 0, 0, .2) !important;
     --toast-border: var(--background-tertiary) !important;
+    --alt-color: 55, 178, 203;
+    --username: "PhenoM4n4n"
 }
+
+@font-face {
+    font-family: "Blox (BRK)";
+    src: url("//db.onlinewebfonts.com/t/0eacdeed89800b40c5d73b6c00863f31.eot");
+    src: url("//db.onlinewebfonts.com/t/0eacdeed89800b40c5d73b6c00863f31.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0eacdeed89800b40c5d73b6c00863f31.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0eacdeed89800b40c5d73b6c00863f31.woff") format("woff"), url("//db.onlinewebfonts.com/t/0eacdeed89800b40c5d73b6c00863f31.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0eacdeed89800b40c5d73b6c00863f31.svg#Blox (BRK)") format("svg");
+  }
 
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
@@ -1658,3 +1665,66 @@ div[class*="protip-"] {
 li[class*="emojiItemDisabled-"]:hover{
     filter: grayscale(0);
 }
+
+/* STREAMER PROFILE */
+
+:root .headerStreaming-2FjmGz{
+    background: #593695 !important;
+}
+
+/* JUMP TO PRESENT BUTTON REWORK */
+
+.jumpToPresentBar-9P20AM {
+    display: grid !important;
+    background-color: #0000 !important;
+    justify-content: right;
+    min-height: 0 !important;
+    height: 0;
+    padding: 0 !important;
+    opacity: 1 !important;
+}
+.jumpToPresentBar-9P20AM .barButtonAlt-3gIkIj {
+    color: #0000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px !important;
+    background-color: var(--background-tertiary) !important;
+    transform: translate(-5px, -52px);
+    cursor: pointer;
+}
+.jumpToPresentBar-9P20AM .barButtonAlt-3gIkIj::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 55%; height: 55%;
+    background-image: url(https://image.flaticon.com/icons/svg/271/271210.svg);
+}
+.theme-dark .jumpToPresentBar-9P20AM .barButtonAlt-3gIkIj::before {
+    filter: invert(60%);
+}
+.theme-light .jumpToPresentBar-9P20AM .barButtonAlt-3gIkIj::before {
+    filter: invert(40%);
+}
+.jumpToPresentBar-9P20AM *:not(.barButtonAlt-3gIkIj) {
+    display: none !important;
+}
+
+/* USERNAME AT BOTTOM */
+  
+  body::after {
+    font-family: "Blox (BRK)";
+    content: var(--username) !important;
+    color: rgba(var(--alt-color));
+    font-size: 20px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    z-index: 1000;
+    opacity: 0.8;
+    pointer-events: none;
+  }

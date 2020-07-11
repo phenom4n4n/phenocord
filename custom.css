@@ -1507,7 +1507,7 @@ img[class^="avatar-"] {
 .icon-22AiRD,
 .actionIcon-2Hi9ZG,
 .button-14-BFJ{
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .icon-3Gkjwa:hover,
@@ -1518,8 +1518,9 @@ img[class^="avatar-"] {
 .icon-22AiRD:hover,
 .actionIcon-2Hi9ZG:hover,
 .button-14-BFJ:hover{
-    padding-bottom: 3px;
-    transition: 0.2;
+/*    padding-bottom: 3px;*/
+    transform: scale(1.14);
+    transition: 0.1;
     animation-name: pride;
     animation-duration: 1s;
     animation-iteration-count: infinite;

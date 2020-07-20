@@ -1790,3 +1790,9 @@ h2[class*="header-"] span[style*="color: rgb(114, 137, 218);"] {
 img[src*="https://cdn.discordapp.com/avatars/462364255128256513"] ~ h2[class*="header"] span[class*="username-"] {
     color: rgba(var(--alt-color)) !important;
 }
+
+/* FIX TOOLTIPS */
+
+div[class*="tooltipContent-"] {
+    text-align: center !important;
+}

@@ -1784,3 +1784,9 @@ div[class*="name-"] span[style*="color: rgb(114, 137, 218);"] {
 h2[class*="header-"] span[style*="color: rgb(114, 137, 218);"] {
     color: rgba(var(--alt-color)) !important;
 }
+
+/* CUSTOM COLOR */
+
+img[src*="https://cdn.discordapp.com/avatars/462364255128256513"] ~ h2[class*="header"] span[class*="username-"] {
+    color: rgba(var(--alt-color)) !important;
+}

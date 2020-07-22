@@ -1463,8 +1463,8 @@ img[class^="avatar-"] {
     border-radius: 5px !important;
 }
 
-[url*="#svg-mask-voice-"] {
-    mask: unset !important
+foreignObject[mask*="url(#svg-mask-voice-user-summary-item)"] {
+    mask: unset !important;
 }
 
 [id^="svg-mask-avatar"] > circle[fill="white"] {

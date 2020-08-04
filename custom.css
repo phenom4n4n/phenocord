@@ -55,6 +55,14 @@
    background-color: var(--background-primary) !important;
 }
 
+.theme-dark .guildPopout-3CgKqR {
+    background-color: var(--background-tertiary) !important;
+}
+
+.theme-dark .addGamePopout-2RY8Ju {
+    background-color: var(--background-primary) !important;
+}
+
 .scrollableContainer-2NUZem {
     background-color: var(--channeltextarea-background) !important;
 }
@@ -1479,7 +1487,7 @@ foreignObject[mask*="url(#svg-mask-voice-user-summary-item)"] {
     cx: .45!important;
 }
 
-.avatarSmall-2CW6I1, .avatar-3e1DyV, .avatarContainer-2inGBK, .callAvatarVoice-29N_wG, .avatar-SmRMf2 {
+.avatar-1BDn8e, .avatarSmall-2CW6I1, .avatar-3e1DyV, .avatarContainer-2inGBK, .callAvatarVoice-29N_wG, .avatar-SmRMf2 {
     border-radius: 5px!important;
 }
   

@@ -1813,3 +1813,27 @@ img[src*="https://cdn.discordapp.com/avatars/462364255128256513"] ~ h2[class*="h
 div[class*="tooltipContent-"] {
     text-align: center !important;
 }
+
+/* CUSTOM HOME */
+
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+    background: url("https://i.imgur.com/asMMKZ2.gif");
+  	filter: grayscale(50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+}
+ 
+.homeIcon-tEMBK1 path {
+    fill: transparent;
+}
+
+/* HIDE TEXTBOX WHEN NO SPEAK PERMS */
+
+.channelTextAreaDisabled-8rmlrp > div {
+    display: none;
+  }
+  

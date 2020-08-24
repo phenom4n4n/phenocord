@@ -1835,5 +1835,12 @@ div[class*="tooltipContent-"] {
 
 .channelTextAreaDisabled-8rmlrp > div {
     display: none;
-  }
+}
   
+/* UNSPOILER ON HOVER */
+
+.spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+  	opacity: 1;
+    background-color: hsla(0,0%,75%,.1) !important;
+  	border-radius: 3px;
+}

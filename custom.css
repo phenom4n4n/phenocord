@@ -1556,14 +1556,14 @@ div[class^="member-"]:hover,
 
 div[class^="side-"] div[class^="item-"],
 a[class^="channel-"],
-div[id^="channels-"] {
+.containerDefault-1ZnADq {
   background-color: transparent;
 }
 
 
 div[class^="side-"] div[class^="item-"]:hover,
 a[class^="channel-"]:hover,
-div[id^="channels-"]:hover {
+.containerDefault-1ZnADq:hover {
   transition: all 0.3s ease;
   transform: translateX(0.5em);
   border-left: solid 0.5em #000000;

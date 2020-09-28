@@ -1846,3 +1846,8 @@ div[class*="tooltipContent-"] {
     background-color: hsla(0,0%,75%,.1) !important;
   	border-radius: 3px;
 }
+
+/* INLINE CODE */
+.markup-2BOw-j code {
+    background-color: #000 !important;
+}

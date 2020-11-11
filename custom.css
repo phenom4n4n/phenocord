@@ -1852,3 +1852,14 @@ div[class*="tooltipContent-"] {
 .markup-2BOw-j code {
     background-color: #000 !important;
 }
+
+/* BLUR PERSONAL CREDENTIALS */
+div[class="colorStandard-2KCXvj size14-e6ZScH description-3_Ncsb formText-3fs7AJ marginBottom8-AtZOdT modeDefault-3a2Ph1"]:nth-child(2),
+span[class="colorHeaderPrimary-26Jzh- size16-1P40sf"] {
+    filter: blur(3px);
+}
+div[class="colorStandard-2KCXvj size14-e6ZScH description-3_Ncsb formText-3fs7AJ marginBottom8-AtZOdT modeDefault-3a2Ph1"]:nth-child(2):hover,
+span[class="colorHeaderPrimary-26Jzh- size16-1P40sf"]:hover {
+    filter: blur(0px);
+    transition: filter .2s;
+}

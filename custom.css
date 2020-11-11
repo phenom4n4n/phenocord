@@ -1424,7 +1424,7 @@ span[class*="roleColor"]::after {
 .scroller-2FKFPG {
     position: relative;
 }
-.containerDefault-3GGEv_::after {
+.containerDefault-3tr_sE::after {
     content: "";
     position: absolute;
     top: 28px;
@@ -1434,11 +1434,11 @@ span[class*="roleColor"]::after {
     right: 0px;
     z-index: -1;
 }
-.containerDefault-3GGEv_ {
+.containerDefault-3tr_sE {
     display: flex;
     align-items: center;
 }
-.containerDefault-3GGEv_ > * {
+.containerDefault-3tr_sE > * {
     background: var(--background-primary) !important;
     border-radius: 2.5px;
     margin: 0 auto;
@@ -1558,14 +1558,14 @@ div[class^="member-"]:hover,
 
 div[class^="side-"] div[class^="item-"],
 a[class^="channel-"],
-.containerDefault-1ZnADq {
+.containerDefault--pIXnN {
   background-color: transparent;
 }
 
 
 div[class^="side-"] div[class^="item-"]:hover,
 a[class^="channel-"]:hover,
-.containerDefault-1ZnADq:hover {
+.containerDefault--pIXnN:hover {
   transition: all 0.3s ease;
   transform: translateX(0.5em);
   border-left: solid 0.5em #000000;

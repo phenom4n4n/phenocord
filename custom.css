@@ -1414,9 +1414,9 @@ span[class*="roleColor"]::after {
     background-color: rgba(var(--alt-color));
 }
 
-.wrapper-3WhCwL {
-    color: rgba(var(--alt-color));
-    background: rgba(var(--alt-color), 0.05);
+span[class*="wrapper-"] {
+    color: rgba(var(--alt-color)) !important;
+    background: rgba(var(--alt-color), 0.05) !important;
 }
 
 /* LINED CATEGORIES */

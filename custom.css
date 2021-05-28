@@ -31,7 +31,9 @@
     --toast-box-shadow: rgba(0, 0, 0, .2) !important;
     --toast-border: var(--background-tertiary) !important;
     --alt-color: 55, 178, 203;
-    --username: "PhenoM4n4n"
+    --username: "PhenoM4n4n";
+    --button: #333333;
+    --button-light: #404040;
 }
 
 @font-face {
@@ -1852,4 +1854,13 @@ div[class*="tooltipContent-"] {
 /* INLINE CODE */
 .markup-2BOw-j code {
     background-color: #000 !important;
+}
+
+
+/* buttons */
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: var(--button);
+}
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: var(--button-light);
 }

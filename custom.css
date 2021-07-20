@@ -1416,6 +1416,7 @@ span[class*="roleColor"]::after {
     background-color: rgba(var(--alt-color));
 }
 
+/*
 span[class*="wrapper-"] {
     color: rgba(var(--alt-color)) !important;
     background: rgba(var(--alt-color), 0.05) !important;

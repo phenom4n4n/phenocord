@@ -31,6 +31,7 @@
     --toast-box-shadow: rgba(0, 0, 0, .2) !important;
     --toast-border: var(--background-tertiary) !important;
     --alt-color: 55, 178, 203;
+    --christmas-color: #992a27;
     --username: "PhenoM4n4n";
     --button: #333333;
     --button-light: #404040;
@@ -1807,12 +1808,13 @@ h2[class*="header-"] span[style*="color: rgb(114, 137, 218);"] {
     color: rgba(var(--alt-color)) !important;
 }
 
-/* CUSTOM COLOR */
+/* custom username color */
 
 img[src*="https://cdn.discordapp.com/avatars/634866217764651009"] ~ h2[class*="header"] span[class*="username-"],
 img[src*="https://cdn.discordapp.com/avatars/615725010740445217"] ~ h2[class*="header"] span[class*="username-"],
 img[src*="https://cdn.discordapp.com/avatars/462364255128256513"] ~ h2[class*="header"] span[class*="username-"] {
-    color: rgba(var(--alt-color)) !important;
+    /* color: rgba(var(--alt-color)) !important; */
+    color: var(--christmas-color) !important;
 }
 
 /* FIX TOOLTIPS */

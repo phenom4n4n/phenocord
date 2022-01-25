@@ -1862,9 +1862,11 @@ div[class*="tooltipContent-"] {
 
 
 /* buttons */
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
-    background-color: var(--button);
+.lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.lookFilled-yCfaCM.colorGrey-2iAG-B {
+    background-color: var(--button) !important;
 }
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-    background-color: var(--button-light);
+.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
+    background-color: var(--button-light) !important;
 }

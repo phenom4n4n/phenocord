@@ -1692,12 +1692,6 @@ li[class*="emojiItemDisabled-"]:hover{
     filter: grayscale(0);
 }
 
-/* STREAMER PROFILE */
-
-:root .headerStreaming-2FjmGz{
-    background: #593695 !important;
-}
-
 /* JUMP TO PRESENT BUTTON REWORK */
 
 .jumpToPresentBar-9P20AM {
@@ -1826,7 +1820,7 @@ div[class*="tooltipContent-"] {
 
 /* CUSTOM HOME */
 
-.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+svg[class^="homeIcon-"] {
     background: url("https://i.imgur.com/asMMKZ2.gif");
   	filter: grayscale(50%);
     background-size: contain;
@@ -1837,7 +1831,7 @@ div[class*="tooltipContent-"] {
     margin-top: -2px;
 }
  
-.homeIcon-tEMBK1 path {
+svg[class^="homeIcon-"] path {
     fill: transparent;
 }
 
@@ -1849,19 +1843,13 @@ div[class*="tooltipContent-"] {
   
 /* UNSPOILER ON HOVER */
 
-.spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+span[class^="spoilerText-"]:hover span[class^="inlineContent-"] {
   	opacity: 1;
     background-color: hsla(0,0%,75%,.1) !important;
   	border-radius: 3px;
 }
 
-/* INLINE CODE */
-.markup-2BOw-j code {
-    background-color: #000 !important;
-}
-
-
-/* buttons */
+/* recolor grey button darker */
 .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 .lookFilled-yCfaCM.colorGrey-2iAG-B {
     background-color: var(--button) !important;
